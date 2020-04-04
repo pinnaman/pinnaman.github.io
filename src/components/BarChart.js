@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import * as d3 from 'd3'
+
 class BarChart extends Component {
+
+//function BarChart() {
 
     componentDidMount() {
         const data = this.props.data;
